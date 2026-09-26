@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+coverage
+.git
+.github
+docs
+k8s
+monitoring
+*.md
+docker-compose.yml
+.env
