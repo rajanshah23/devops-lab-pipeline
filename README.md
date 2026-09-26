@@ -4,6 +4,14 @@ A containerized Node.js REST API with Docker Compose, Prometheus metrics, and Gr
 
 ![API Overview dashboard](dashboard.png)
 
+## Docker image
+
+Published on Docker Hub:
+
+```bash
+docker pull rajanshah23/devops-lab-pipeline:1.0.0
+```
+
 ## Overview
 
 A small DevOps project that demonstrates four foundational layers of a modern deployment stack:
