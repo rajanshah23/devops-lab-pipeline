@@ -1,4 +1,4 @@
-# devops-lab-pipeline
+# Devops-lab-pipeline
 
 A containerized Node.js REST API with Docker Compose, Prometheus metrics, and Grafana dashboards - the entire stack runs locally with one command.
 
@@ -40,7 +40,7 @@ Wait about 15 seconds, then open:
 
 - **API:** http://localhost:3000
 - **Prometheus:** http://localhost:9090
-- **Grafana:** http://localhost:3001 (login: `admin` / `admin`)
+- **Grafana:** http://localhost:3001
 - **Dashboard:** Grafana -> Dashboards -> DevOps Lab -> API Overview
 
 To stop everything:
@@ -211,6 +211,3 @@ Run `docker compose logs api` to see why.
 - Grafana dashboards can be provisioned from files instead of clicked together, which makes them portable and version-controlled
 - Counters must be wrapped in `rate()` before they mean anything - a raw counter only goes up
 
-## License
-
-MIT
