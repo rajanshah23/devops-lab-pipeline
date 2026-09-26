@@ -2,7 +2,7 @@
 
 A containerized Node.js REST API with Docker Compose, Prometheus metrics, and Grafana dashboards - the entire stack runs locally with one command.
 
-![API Overview dashboard](docs/dashboard.png)
+![API Overview dashboard](dashboard.png)
 
 ## Overview
 
