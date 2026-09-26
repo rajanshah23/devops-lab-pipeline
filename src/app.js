@@ -78,6 +78,10 @@ app.delete("/api/tasks/:id", (req, res) => {
   res.status(204).end();
 });
 
+app.get('/boom', (_req, res) => {
+  res.status(500).json({ error: 'intentional test error' });
+});
+
 app.__reset = () => {
   tasks = [];
   nextId = 1;
