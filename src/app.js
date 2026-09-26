@@ -50,6 +50,13 @@ app.get("/metrics", async (_req, res) => {
   res.set("Content-Type", register.contentType);
   res.end(await register.metrics());
 });
+app.get("/", (_req, res) => {
+  res.json({
+    service: "devops-lab-api",
+    version: "1.0.0",
+    endpoints: ["/health", "/ready", "/metrics", "/api/tasks"],
+  });
+});
 
 app.get("/api/tasks", (_req, res) => res.json(tasks));
 
